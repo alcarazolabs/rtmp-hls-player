@@ -9,7 +9,7 @@
 	<body>
 		<h1>HLS Player</h1>
 		<video id="player" class="video-js vjs-default-skin" width="720" controls preload="auto">
-			<source src="https://a72d-2800-200-f110-2cb8-d876-8fa7-1229-2010.ngrok.io/hls/hello.m3u8" type="application/x-mpegURL" />
+			<source src="localhost:8080/hls/hello.m3u8" type="application/x-mpegURL" />
 		</video>
 		<script>
 			var player = videojs('#player');
